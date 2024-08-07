@@ -3,3 +3,8 @@
     padding-top: 230px;
     background-color: var(--main-color);
 }
+@media (max-width: 600px) {
+    .about {
+        padding-top: 140px;
+    }
+}

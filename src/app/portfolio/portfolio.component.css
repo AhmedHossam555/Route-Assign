@@ -34,10 +34,8 @@
     top: 20px;
     right: 20px;
     color: #fff;
-    border: 2px solid #fff;
-    border-radius: 50%;
     font-weight: bold;
-    padding: 8px;
+    font-size: 30px;
     z-index: 2;
     cursor: pointer;
 }
