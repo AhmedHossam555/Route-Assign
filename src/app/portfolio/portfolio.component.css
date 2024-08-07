@@ -1,0 +1,43 @@
+.portfolio {
+    min-height: calc(-102px + 100vh);
+    padding-top: 90px;
+    background-color: white;
+}
+.layer{
+    background-color: #1abc9ce6;
+    cursor: pointer;
+    opacity: 0;
+    transition: .6s opacity;
+    height: 100%;
+}
+.layer:hover {
+    opacity: 1;
+}
+.container {
+    position: relative;
+}
+.pop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+}
+.pop img{
+    width: 100%;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 8px;
+    z-index: 2;
+    cursor: pointer;
+}

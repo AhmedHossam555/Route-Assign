@@ -1,0 +1,18 @@
+.contact {
+    padding-top: 140px;
+}
+input {
+    background-color: transparent;
+}
+input:focus {
+    box-shadow: none;
+}
+form {
+    width: 50%;
+}
+.line {
+    background-color: #000;
+}
+input.ng-invalid{
+    border-bottom-color: red;
+}

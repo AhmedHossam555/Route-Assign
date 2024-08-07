@@ -1,0 +1,64 @@
+<div class="portfolio">
+    <app-star [title]="'PORTFOLIO COMPONENT'" [color]="'#2c3e50'" ></app-star>
+    <div class="container">
+        <div class="row g-5 mb-5 ">
+            <div class="col-lg-4 col-md-6 ">
+                <div class="rounded-3 position-relative overflow-hidden"v  (click)="onOpen(img.src)">
+                    <img  class="w-100 rounded-3" #img src="../../assets/poert1.png" >
+                    <div class="layer position-absolute start-0 w-100 top-0  d-flex justify-content-center align-items-center">
+                        <i  class="text-white fa-solid fa-plus fa-6x" id="1"></i>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <div class="rounded-3 position-relative overflow-hidden" (click)="onOpen(img1.src)">
+                    <img class="w-100 rounded-3" #img1 src="../../assets/port2.png">
+                    <div class="layer position-absolute start-0 w-100 top-0  d-flex justify-content-center align-items-center">
+                        <i  class="text-white fa-solid fa-plus fa-6x" id="2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <div class="rounded-3 position-relative overflow-hidden" (click)="onOpen(img2.src)">
+                    <img class="w-100 rounded-3" #img2  src="../../assets/port3.png">
+                    <div class="layer position-absolute start-0 w-100 top-0  d-flex justify-content-center align-items-center">
+                        <i  class="text-white fa-solid fa-plus fa-6x" id="3"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <div class="rounded-3 position-relative overflow-hidden" (click)="onOpen(img.src)">
+                    <img class="w-100 rounded-3"  src="../../assets/poert1.png">
+                    <div class="layer position-absolute start-0 w-100 top-0  d-flex justify-content-center align-items-center">
+                        <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <div class="rounded-3 position-relative overflow-hidden" (click)="onOpen(img1.src)">
+                    <img  class="w-100 rounded-3" src="../../assets/port2.png" >
+                    <div class="layer position-absolute start-0 w-100 top-0  d-flex justify-content-center align-items-center">
+                        <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <div class="rounded-3 position-relative overflow-hidden" (click)="onOpen(img2.src)">
+                    <img class="w-100 rounded-3" src="../../assets/port3.png" >
+                    <div class="layer position-absolute start-0 w-100 top-0  d-flex justify-content-center align-items-center">
+                        <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        </div>
+        @if (mode) {
+            <div class="pop">
+                <img [src]="srcImage" alt="">             
+                <i class="fa-solid fa-xmark close" (click)="onClose()"></i>
+        </div>
+        }
+      
+</div>

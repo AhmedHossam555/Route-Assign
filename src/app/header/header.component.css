@@ -1,0 +1,39 @@
+nav {
+    background-color: var(--second-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navs {
+    position: absolute;
+    background-color: var(--second-color);
+    left: 0;
+    width: 100%;
+    top: -200px;
+    transition: 0.3s;
+}
+button.isopen .navs {
+    top: 64px;
+}
+.navs li {
+    display: block;
+    margin-bottom: 4px;
+}
+.navs li a{
+    text-align: left;
+    transition: 0.3s;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+.navs li a:hover{
+    background-color: var(--main-color);
+}
+.class1 {
+    border-radius: 5px;
+    background-color: var(--main-color);
+}

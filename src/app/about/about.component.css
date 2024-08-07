@@ -1,0 +1,5 @@
+.about {
+    min-height: calc(-102px + 100vh);
+    padding-top: 230px;
+    background-color: var(--main-color);
+}

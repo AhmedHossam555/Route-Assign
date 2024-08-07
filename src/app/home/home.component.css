@@ -1,0 +1,8 @@
+.avatar {
+    width: 250px;
+}
+.home {
+    background-color: var(--main-color);
+    min-height: calc(-102px + 100vh);
+    padding-top: 140px;
+}
